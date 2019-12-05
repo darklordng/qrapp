@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".generate_code">
+
+    <ImageView
+        android:id="@+id/user_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/img"
+        />
+
+    <EditText
+        android:id="@+id/userId_edt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/user_img"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:hint="User Id"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:background="@drawable/round_edittext"
+        android:backgroundTint="#E0E7E6"
+        android:maxLines="1"/>
+
+
+    <EditText
+        android:id="@+id/fullname_edt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/userId_edt"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Full Name"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:background="@drawable/round_edittext"
+        android:backgroundTint="#E0E7E6"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/email_edt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/fullname_edt"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Email Address"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:background="@drawable/round_edittext"
+        android:backgroundTint="#E0E7E6"
+        android:maxLines="1"/>
+
+
+    <EditText
+        android:id="@+id/password_edt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/email_edt"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Password"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:background="@drawable/round_edittext"
+        android:backgroundTint="#E0E7E6"
+        android:maxLines="1"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/generate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_edt"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Generate Code"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="@drawable/round_edittext"
+        android:backgroundTint="@color/colorPrimary"/>
+
+</RelativeLayout>
