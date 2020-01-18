@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "936596642190",
+    "firebase_url": "https://meetme-e3e18.firebaseio.com",
+    "project_id": "meetme-e3e18",
+    "storage_bucket": "meetme-e3e18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936596642190:android:cf13a765d31119a01d2cdf",
+        "android_client_info": {
+          "package_name": "com.example.meetme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936596642190-3o320d6p50c4pf5le2qc33l0kcbgnhd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meetme",
+            "certificate_hash": "a642ce9b88a6e1c850bd0bace09e45357e87f6dd"
+          }
+        },
+        {
+          "client_id": "936596642190-295o9nfau6r38k9u2kenl81uflvnk6im.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT5yK9i9AqJJdLE7m2wS1TZaNJ3kVol84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936596642190-295o9nfau6r38k9u2kenl81uflvnk6im.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "446757831637",
+    "firebase_url": "https://voxrigo.firebaseio.com",
+    "project_id": "voxrigo",
+    "storage_bucket": "voxrigo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446757831637:android:c4c90521a89ffb976a335c",
+        "android_client_info": {
+          "package_name": "com.example.voxrigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446757831637-6o9vul3e5dmmgsrp3v1ns3kcgepqff3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.voxrigo",
+            "certificate_hash": "a642ce9b88a6e1c850bd0bace09e45357e87f6dd"
+          }
+        },
+        {
+          "client_id": "446757831637-vshnlma8bn2cumj9j8a4toub8ktpvejs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVxKobHFSquG0CSFEIUsShYi2z_ffyChI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446757831637-vshnlma8bn2cumj9j8a4toub8ktpvejs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

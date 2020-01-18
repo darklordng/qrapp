@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.voxrigo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_black"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_black"
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme">
+        <activity android:name=".LoginActivity"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+
+
+        </activity>
+    </application>
+
+</manifest>
